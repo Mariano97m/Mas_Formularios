@@ -43,12 +43,12 @@ const Formulario = ()=> {
             <br />
             {
                 ConfirmPassword.length < 10 && ConfirmPassword.length > 0 &&
-                <p>Nombre debe de tener 10 caracteres</p>
+                <p>La contraseña debe de tener 10 caracteres</p>
             }
             <InputComponent label="Password" type="password" state={ Password} setState={ setPassword} />
             {
                 Password.length < 10 && Password.length > 0 &&
-                <p>Nombre debe de tener 10 caracteres</p>
+                <p>La contraseña debe de tener 10 caracteres</p>
             }
         </form>
             <h2>YOUR DATA</h2>
